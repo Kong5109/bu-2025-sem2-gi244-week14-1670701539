@@ -40,7 +40,7 @@ public class MainManager : MonoBehaviour
 
         SaveData data = new SaveData();
         data.TeamColor = TeamColor;
-        data.MyName = "Big";
+        data.MyName = "Kong";
         string j = JsonUtility.ToJson(data);
         PlayerPrefs.SetString("saveData", j);
         Debug.Log(j);
